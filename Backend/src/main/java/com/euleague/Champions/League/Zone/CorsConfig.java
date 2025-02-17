@@ -14,7 +14,7 @@ public class CorsConfig {
       @Override
       public void addCorsMappings(@NonNull CorsRegistry registry) {
         registry.addMapping("/api/**")
-            .allowedOrigins("http://localhost:3000", "https://premierzone.vercel.app")
+            .allowedOrigins("http://localhost:3000", "https://champions-league-fronted.vercel.app")
             .allowedMethods("GET");
       }
     };
