@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 
 //data model map diresctly to the table in the database
 @Entity
-@Table(name = "euplayer_data")
+@Table(name = "player_statistic")
 public class Player {
     // primary key of our entity is in fact our string name
     @Id
